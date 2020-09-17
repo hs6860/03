@@ -5,13 +5,17 @@
 
 int main(int argc, char *argv[]) {
 	
-	char a;
-
-	printf("input an alphabet :");
-	scanf("%c", &a);
+	int a;
+	int b;
+	
+	printf("input a numirator :");
+	scanf("%d", &b);
+	
+	printf("input a denominator :");
+	scanf("%d", &a);
 	
 	
-	printf("input an alphabet is %c (%d), and the next on is %c (%d)\n", a, a, a+1, a+1);
+	printf("%d / %d = %f\n", b, a, (float)b/a);
 	
 	return 0;
 }
